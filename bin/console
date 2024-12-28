@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+
+// Créer une nouvelle application Console
+$application = new Application();
+
+// Ajouter vos commandes personnalisées ici, si nécessaire
+// Exemple :
+// $application->add(new YourCustomCommand());
+
+$application->run();

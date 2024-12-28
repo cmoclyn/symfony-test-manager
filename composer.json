@@ -1,0 +1,35 @@
+{
+    "name": "cmoclyn/symfony-test-manager",
+    "description": "A Symfony bundle for test generation and execution",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SymfonyTestManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cédric Moclyn"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.x-dev"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "twig/twig": "^3.17",
+        "symfony/orm-pack": "^2.4",
+        "symfony/messenger": "^7.2",
+        "symfony/maker-bundle": "^1.61",
+        "symfony/console": "^7.2",
+        "symfony/http-foundation": "^7.2",
+        "symfony/yaml": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "symfony/test-pack": "^1.0"
+    }
+}
