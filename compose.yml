@@ -14,13 +14,13 @@ services:
         networks:
             - symfony-test-network
         ports:
-            - "9000:9000" # PHP-FPM
+            - "9001:9000" # PHP-FPM
 
     nginx:
         image: nginx:alpine
         container_name: symfony-test-nginx
         ports:
-            - "8080:80"
+            - "8081:80"
         volumes:
             - .:/var/www:cached
             - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
@@ -36,7 +36,7 @@ services:
             MYSQL_USER: symfony
             MYSQL_PASSWORD: symfony
         ports:
-            - "3306:3306"
+            - "3307:3306"
         networks:
             - symfony-test-network
         volumes:

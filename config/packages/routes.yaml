@@ -1,0 +1,3 @@
+SymfonyTestManager:
+    resource: ../../Controller/
+    type: attribute
