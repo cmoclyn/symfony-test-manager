@@ -1,9 +1,9 @@
 <?php
 
-namespace YourGithubUsername\SymfonyTestManager;
+namespace SymfonyTestManager;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
-class SymfonyTestManagerBundle extends Bundle
+class SymfonyTestManagerBundle extends AbstractBundle
 {
 }

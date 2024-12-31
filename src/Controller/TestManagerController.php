@@ -1,6 +1,6 @@
 <?php
 
-namespace YourGithubUsername\SymfonyTestManager\Controller;
+namespace SymfonyTestManager\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
